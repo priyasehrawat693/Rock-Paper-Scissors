@@ -30,7 +30,7 @@ const gamedraw=()=>{
         compscore++;
         compscorepara.innerText=compscore;
         console.log("You lose");
-         msg.innerText=`You Lose! ${compchoice} beats your${userchoice}`;
+         msg.innerText=`You Lose! ${compchoice} beats your ${userchoice}`;
          msg.style.backgroundColor="red";
     }
 
